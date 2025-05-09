@@ -12,7 +12,7 @@ const AboutUs = () => {
         <div className="mt-4 text-start">
           <h3 className="fw-bold">Our Mission</h3>
           <p>
-            Fashion is more than clothing—it’s a statement. At <strong>Mansory Fashion House</strong>, 
+            Fashion is more than clothing—its a statement. At <strong>Mansory Fashion House</strong>, 
             we craft timeless pieces that empower individuals to express confidence, sophistication, 
             and authenticity. Our designs reflect a harmony of tradition and modern artistry, ensuring 
             every outfit tells a story.

@@ -60,6 +60,7 @@ const ChatBot = ({ theme }) => {
           return "Hmm, I didnt catch that. Could you rephrase or tell me more about what you're looking for?";
       }
         };
+        
   const handleSubmit = (e) => {
     e.preventDefault();
     const trimmed = input.trim();
