@@ -1,23 +1,50 @@
-import Navbar from "./Navbar";
+import { Link } from "react-router-dom";
 
 const AboutUs = () => {
-    return (
-        <div className="row">
-            <Navbar/>
-            <br /><br />
-            <div className="col-md-12">
-                <div className="card shadow">
-                    <h1>About us</h1>
-                    <p>With a holistic approach, we are working at each and every stage of our value chain, from how we design our products, choose the materials and produce the garments, all the way to logistics, and the design and management of our warehouses and stores. We are helping to extend the life of garments through repair, resale and used clothing donation programmes. Meeting our sustainability goals presents a challenge that demands close collaboration at every level, including our supply chain partners, environmental experts, international organisations, trade unions and NGOs. Our aim is to foster genuine change within the industry for a more circular future. While we may not be perfect, we are dedicated to continuous improvement every day, and that will not change.</p>
-                </div>
-                <br /><br />
-                <div className="card shadow">
-                    <h3>Commitments</h3>
-                    <p>Our commitment to people is at the heart of our decisions, from our teams, customers and suppliers, to the communities in which we operate. Our socially responsible strategy aims to guarantee work environments in which human and labour rights are respected and promoted, developing programmes to identify workers needs and their environment.</p>
-                </div>
-            </div>
+  return (
+    <div className="about-us-container">
+      <section className="container text-center py-5">
+        <h2 className="text-uppercase fw-bold">About Us</h2>
+        <p className="lead text-dark">
+          Welcome to Mansory Fashion House—where elegance and innovation converge in every stitch.
+        </p>
+
+        <div className="mt-4 text-start">
+          <h3 className="fw-bold">Our Mission</h3>
+          <p>
+            Fashion is more than clothing—it’s a statement. At <strong>Mansory Fashion House</strong>, 
+            we craft timeless pieces that empower individuals to express confidence, sophistication, 
+            and authenticity. Our designs reflect a harmony of tradition and modern artistry, ensuring 
+            every outfit tells a story.
+          </p>
+
+          <h3 className="fw-bold mt-3">Our Commitment</h3>
+          <p>
+            We uphold excellence by focusing on:
+          </p>
+          <ul className="list-unstyled">
+            <li>✨ Masterful craftsmanship and premium materials</li>
+            <li>🌍 Ethical and sustainable production practices</li>
+            <li>🎨 Bold, trendsetting designs with global influences</li>
+            <li>💖 A customer-first philosophy, ensuring quality and satisfaction</li>
+          </ul>
+
+          <h3 className="fw-bold mt-3">Be Part of Our Journey</h3>
+          <p>
+            Whether you seek everyday sophistication or statement pieces that redefine fashion, 
+            Mansory Fashion House is your destination for artistry in style. Join us in celebrating 
+            individuality, culture, and creativity—because fashion should never be ordinary.
+          </p>
+
+          <div className="text-center mt-4">
+            <Link to="/" className="btn btn-dark btn-lg">
+              Discover Our Collection
+            </Link>
+          </div>
         </div>
-    );
-}
- 
+      </section>
+    </div>
+  );
+};
+
 export default AboutUs;

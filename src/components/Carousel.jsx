@@ -1,9 +1,7 @@
-import { Link } from "react-router-dom";
-
 const Carousel = () => {
     return (
         <div>
-        <section className="row">
+        <section className="mx-3">
         <div className="col-md-12">
             <div className="carousel slide" id="MyCarousel" data-bs-ride="carousel">
                 <div className="carousel-inner">
@@ -11,7 +9,7 @@ const Carousel = () => {
                         <img src="images/slide7.png" alt="" className="d-block w-100" height="500px"/>
                         <div className="carousel-caption">
                             <h2 className="text-light">Hello</h2>
-                            <p className="text-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, totam.</p>
+                            <p className="text-light">Welcome to Mansory Fashion House, home of elegant wear.</p>
                             <button className="btn btn-danger">Buy Now</button>
                         </div>
                     </div>
@@ -29,13 +27,13 @@ const Carousel = () => {
                     </div>
                 </div>
 
-                <Link to="#MyCarousel" 
-                data-bs-slide="prev" className="carousel-control-prev">
-                <span className="carousel-control-prev-icon"></span></Link>
+                <a href="#MyCarousel" data-bs-slide="prev" className="carousel-control-prev">
+                <span className="carousel-control-prev-icon"></span>
+                </a>
 
-                <Link to="#MyCarousel" 
-                data-bs-slide="next" className="carousel-control-next">
-                <span className="carousel-control-next-icon"></span></Link>
+                <a href="#MyCarousel" data-bs-slide="next" className="carousel-control-next">
+                <span className="carousel-control-next-icon"></span>
+                </a>
             </div>
         </div>
       </section>
